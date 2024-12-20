@@ -1,0 +1,10 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+COPY src/scheduler.py .
+COPY data/processes.json ./data/
+
+ENV INPUT_FILE=/app/data/processes.json
+
+CMD python scheduler.py --algorithm srtf --input "$INPUT_FILE"

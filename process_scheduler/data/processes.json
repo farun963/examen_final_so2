@@ -1,0 +1,8 @@
+[
+    {"id": "A", "arrival_time": 0, "burst_time": 7},
+    {"id": "B", "arrival_time": 2, "burst_time": 13},
+    {"id": "C", "arrival_time": 4, "burst_time": 3},
+    {"id": "D", "arrival_time": 4, "burst_time": 5},
+    {"id": "E", "arrival_time": 6, "burst_time": 7},
+    {"id": "F", "arrival_time": 6, "burst_time": 3}
+]
